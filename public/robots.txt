@@ -1,3 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+
+
+Allow: /public/
+Sitemap: https://ibrohim.site/sitemap.xml
+Host: https://www.ibrohim.site
