@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import Logo from "../images/logo.svg";
+// import { Link } from "react-router-dom";
+// import Logo from "../images/logo.svg";
 // import Profile from "../images/profile.png";
 // import Avatar from "../images/ibrohim.jpg";
 import Me from "../images/me.jpg";
