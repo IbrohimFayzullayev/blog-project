@@ -36,9 +36,14 @@ const Home = () => {
       />
       <div className="bg-black w-full min-h-screen">
         <div className="fixed flex justify-between items-center text-white text-2xl text-center py-4 px-4 w-full top-0">
-          <Link to="/">
-            <img src={Logo} alt="logo" className="w-[50px] h-[50px]" />
-          </Link>
+          <div></div>
+          {/* <Link to="/"> */}
+          {/* <img
+              src={Me}
+              alt="logo"
+              className="w-[50px] h-[50px] rounded-full"
+            /> */}
+          {/* </Link> */}
           <button className="bg-blue-700 text-white font-normal text-base rounded-lg px-4 py-2 hover:bg-blue-600 transition-all duration-150">
             CV
           </button>
