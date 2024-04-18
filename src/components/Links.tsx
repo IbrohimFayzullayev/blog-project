@@ -22,6 +22,21 @@ const Links = () => {
           </div>
         </div>
       ))}
+      <div className="flex gap-4 mb-4">
+        <div className="w-2/5">
+          <p className="opacity-50">Phone</p>
+        </div>
+        <div className="w-3/4 flex gap-1 items-center">
+          <a
+            href="tel:+998 99 255 03 37"
+            rel="noreferrer"
+            className="hover:underline"
+          >
+            +998 99 255 03 37
+          </a>
+          <img src={Arrow} alt="arrow icon" />
+        </div>
+      </div>
     </>
   );
 };
@@ -41,6 +56,11 @@ const links = [
     title: "Telegram",
     link: "https://t.me/Ibrohim_Fayzullayev",
     name: "@Ibrohim_Fayzullayev",
+  },
+  {
+    title: "Gmail",
+    link: "mailto:ibrohim.fayzullayev.dev@gmail.com",
+    name: "ibrohim.fayzullayev.dev@gmail.com",
   },
 ];
 export default Links;
