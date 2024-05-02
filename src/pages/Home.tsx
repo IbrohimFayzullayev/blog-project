@@ -2,8 +2,6 @@ import Me from "../images/me.jpg";
 import Projects from "../components/Projects";
 import Links from "../components/Links";
 import Experience from "../components/Experience";
-import { Link } from "react-router-dom";
-import Sticker from "../images/profile.jpg";
 
 const Home = () => {
   const articleStructuredData = {
@@ -33,13 +31,14 @@ const Home = () => {
       />
       <div className="bg-black w-full min-h-screen">
         <div className="fixed flex justify-between items-center text-white text-2xl text-center py-4 px-4 w-full top-0 backdrop-blur-sm z-10">
-          <Link to="/">
+          <div></div>
+          {/* <Link to="/">
             <img
               src={Sticker}
               alt="Ibrohim Fayzullayev"
               className="w-[53px] h-[50px] rounded-full"
             />
-          </Link>
+          </Link> */}
           <button className="bg-blue-700 text-white font-normal text-base rounded-lg px-4 py-2 hover:bg-blue-600 transition-all duration-150">
             CV
           </button>
