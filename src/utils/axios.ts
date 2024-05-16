@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosCredentials = {
-  baseURL: "http://localhost:8080/api",
+  baseURL: "https://api.ibrohim.site/api",
   headers: {
     Accept: "application/json",
   },
