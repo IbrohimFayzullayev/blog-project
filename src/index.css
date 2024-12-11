@@ -10,9 +10,9 @@
   body {
     @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -85,4 +85,10 @@
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.widget ul {
+  padding: 0 0 0 1.25em;
+  margin: 0;
+  line-height: 1.2;
 }
