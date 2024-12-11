@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="bg-[url('../src/images/bg-img.jpg')] w-full h-full fixed bg-cover	min-w-[1400px]">
+    <div className="bg-[url('../src/images/bg-img.jpg')] w-full min-h-screen bg- min-w-[1400px]">
       <div className="px-[60px] py-[50px]">
         <h1 className="text-[60px] text-[#000] leading-[70px]">
           Exploring Collaborative Learning in the "Teach Together" Online
