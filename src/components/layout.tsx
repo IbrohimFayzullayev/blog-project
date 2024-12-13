@@ -28,7 +28,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="grid mt-[20px] grid-cols-[1.5fr,3fr,1fr] gap-[30px]">
           <div className="bg-[#666] py-[15px] px-[15px] widget">
             <h2 className="text-xl font-medium mb-2 text-[#fff] leading-[24px]">
-              About project
+              <Link to={"/"} className="hover:underline">
+                 About project
+              </Link>
             </h2>
             <div className="widget-content">
               <ul className="list-disc text-[#ccc]">
