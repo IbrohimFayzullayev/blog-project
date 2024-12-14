@@ -4,6 +4,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Layout from "./components/layout";
 import Introduction from "./pages/Introduction";
+import LiteratureReview from "./pages/LiteratureReview";
+import Methodology from "./pages/Methodology";
+import Conclusion from "./pages/Conclusion";
+import References from "./pages/References";
 
 const App: React.FC = () => {
   return (
@@ -12,7 +16,13 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/introduction" element={<Introduction/>} />
+          <Route path="/introduction" element={<Introduction />} />
+          <Route path="/literature-review" element={<LiteratureReview />} />
+          <Route path="/methodology" element={<Methodology />} />
+          <Route path="/conclusion" element={<Conclusion />} />
+          <Route path="/references" element={<References />} />
+          <Route path="/data-analysis" element={<div>Data Analysis</div>} />
+          <Route path="/findings" element={<div>Findings</div>} />
         </Routes>
       </Layout>
     </Router>
