@@ -89,7 +89,49 @@
 }
 
 .widget ul {
-  padding: 0 0 0 1.25em;
+  padding: 0 0 0 0.8em;
   margin: 0;
   line-height: 1.2;
+  @media (min-width: 640px) {
+    padding: 0 0 0 1.125em;
+  }
+}
+
+.content-text {
+  font-size: 0.5rem;
+  line-height: 1.5;
+  @media (min-width: 640px) {
+    font-size: 1rem;
+  }
+}
+.content-heading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  @media (min-width: 640px) {
+    font-size: 1.5rem;
+  }
+}
+
+.navbar-heading {
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  @media (min-width: 640px) {
+    font-size: 1.2rem;
+  }
+}
+.navbar-text {
+  font-size: 0.6rem;
+  line-height: 1;
+  @media (min-width: 640px) {
+    font-size: 1rem;
+  }
+}
+.top-navbar-text {
+  font-size: 0.6rem;
+  line-height: 1;
+  @media (min-width: 640px) {
+    font-size: 1rem;
+  }
 }

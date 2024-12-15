@@ -3,8 +3,8 @@ import React from "react";
 const Conclusion = () => {
   return (
     <div className="text-black">
-      <h2 className="font-medium text-[1.4rem]">Conclusion</h2>
-      <p>
+      <h2 className="content-heading">Conclusion</h2>
+      <p className="content-text">
         By incorporating Social Presence Theory into the theme analysis, we can
         understand how the social, emotional, and cognitive aspects of presence
         influence how people engage with the group. And Thematic analysis
@@ -15,10 +15,8 @@ const Conclusion = () => {
         affects their communication methods and learning experiences in social
         community.
       </p>
-      <h3 className="font-medium text-[1.2rem] mt-2">
-        Future Directions for Research
-      </h3>
-      <p>
+      <h3 className="content-heading mt-2">Future Directions for Research</h3>
+      <p className="content-text">
         <b>1.</b> Analyzing the effects of online community structure (e.g.,
         group size, frequency of contact)  which is based on language
         acquisition. We have to recognize what is the main learning part of
@@ -36,7 +34,7 @@ const Conclusion = () => {
         <br /> <b>6.</b> Examining the ways in which students from various
         cultural backgrounds perceive social presence in virtual communities.
       </p>
-      <p className="mt-2">
+      <p className="mt-2 content-text">
         This requires being awared by a person of how expectations,
         communication preferences, and cultural norms affect motivation,
         engagement, and learning results in language learning environments.
@@ -44,7 +42,7 @@ const Conclusion = () => {
         or foreign language. And for that reason they should behave in their own
         ways including norms and ethics.
       </p>
-      <p className="mt-2">
+      <p className="mt-2 content-text">
         The development of more efficient online learning environments and
         community-driven teaching strategies can be influenced by further study
         in these areas. For better learning sometimes the teachers and platform

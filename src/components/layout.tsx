@@ -19,7 +19,7 @@ const SideBarNames = [
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div
-      className="bg-[url('../src/images/bg-img.jpg')] w-full h-full bg-cover bg-fixed overflow-auto"
+      className="bg-[url('../src/images/bg-image2.JPG')] w-full h-full bg-cover bg-fixed overflow-auto"
       style={{ width: "100vw", height: "100vh" }}
     >
       <div className="max-w-[1440px]	my-0 mx-auto">
@@ -29,9 +29,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             Communities
           </h1>
           <Navbar />
-          <div className="grid mt-[20px] grid-cols-[1fr,4fr,1fr] gap-[10px]">
-            <div className="bg-[#666] py-[15px] px-[15px] widget">
-              <h2 className="text-xl font-medium mb-2 text-[#fff] leading-tight">
+          <div className="grid mt-[10px] grid-cols-[1fr,4fr,1fr] gap-[10px]">
+            <div className="bg-[#666] py-[8px] px-[8px] widget">
+              <h2 className="navbar-heading mb-2 text-[#fff]">
                 <Link to={"/"} className="hover:underline">
                   About project
                 </Link>
@@ -39,8 +39,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <div className="widget-content">
                 <ul className="list-disc text-[#ccc]">
                   {SideBarNames.map((item) => (
-                    <li className="mb-2">
-                      <Link to={item.link} className="hover:underline">
+                    <li className="mb-2 navbar-text">
+                      <Link to={item.link} className="hover:underline ">
                         {item.name}
                       </Link>
                     </li>

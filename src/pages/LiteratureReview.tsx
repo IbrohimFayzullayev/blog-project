@@ -3,8 +3,8 @@ import React from "react";
 const LiteratureReview = () => {
   return (
     <div className="text-black">
-      <h2 className="text-[1.4rem] font-medium">Literature Review</h2>
-      <p className="mt-2">
+      <h2 className="content-heading">Literature Review</h2>
+      <p className="mt-2 content-text">
         Social Presence Theory (SPT) has usually been used to explain how a
         person feels as though he or she is "there" in virtual settings. The
         main focus of SPT, which was first presented by Short, Williams, and
@@ -35,7 +35,7 @@ const LiteratureReview = () => {
         students' feelings of social presence in online learning, making virtual
         classrooms feel less alienating and more linked.
       </p>
-      <p className="mt-2">
+      <p className="mt-2 content-text">
         Likewise, Vygotsky’s Sociocultural Theory (1978) emphasizes the
         importance of social interaction in cognitive development, with language
         serving as a key tool for this process. The idea that language

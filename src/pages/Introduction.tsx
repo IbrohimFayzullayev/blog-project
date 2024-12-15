@@ -3,8 +3,8 @@ import React from "react";
 const Introduction = () => {
   return (
     <div className="text-black">
-      <h3 className="text-[1.4rem] font-medium">Research Introduction</h3>
-      <p className="mt-2">
+      <h3 className="content-heading">Research Introduction</h3>
+      <p className="mt-2 content-text">
         When online communication platforms has start to rise it has transformed
         how a person interact with another person throughout the distances,
         online communities or group where individuals can connect their
@@ -21,7 +21,7 @@ const Introduction = () => {
         online application and gives prohibitory order to use international
         online communication application.
       </p>
-      <p className="mt-2">
+      <p className="mt-2 content-text">
         One important theory that helps explain the dynamics of these online
         communities is Social Presence Theory (SPT), which inspects the degree
         to which a communication medium allows members to feel "present" with
@@ -32,8 +32,8 @@ const Introduction = () => {
         belonging have all been associated with high levels of social presence
         in language-learning groups.
       </p>
-      <h4 className="text-[1.2rem] font-medium mt-2">Research Objective</h4>
-      <p>
+      <h4 className="content-heading mt-2">Research Objective</h4>
+      <p className="content-text">
         The purpose of this study is to investigate how social presence appears
         in a group of people who mostly communicate online in order to get
         better at the English language. Or we can say how people want to improve
@@ -59,8 +59,8 @@ const Introduction = () => {
         media, such as video conferencing, foster higher social presence than
         text-based media like emails or chat.
       </p>
-      <h4 className="text-[1.2rem] font-medium mt-2">Research Questions: </h4>
-      <p>
+      <h4 className="content-heading mt-2">Research Questions: </h4>
+      <p className="content-text">
         <b>1.</b> How does social presence in online communities (e.g., language
         learning groups) influence learners’ engagement and motivation?
         <br /> <b>2.</b> What are the key factors that contribute to social

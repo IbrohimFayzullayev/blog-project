@@ -3,8 +3,8 @@ import React from "react";
 const Methodology = () => {
   return (
     <div className="text-black">
-      <h2 className="font-medium text-[1.4rem]">Methodology</h2>
-      <p className="mt-2">
+      <h2 className="content-heading">Methodology</h2>
+      <p className="mt-2 content-text">
         The participants for this study are members of an online language
         learning community on the Telegram platform who actively engage in
         improving their English language skills. Studied online community
@@ -14,7 +14,7 @@ const Methodology = () => {
         different online classes, such as quiz time, speaking, and vocabulary
         classes.
       </p>
-      <p className="mt-2">
+      <p className="mt-2 content-text">
         Data was collected from individuals ranging from early learners to
         advanced speakers, across different age groups and nationalities. For
         instance, participants like Abdurahmon (18, Uzbekistan), Mohammad (39,
@@ -28,7 +28,7 @@ const Methodology = () => {
         space of the Telegram application. Moreover, their consent was taken to
         use personal information and photos of profiles for study purposes.{" "}
       </p>
-      <p className="mt-2">
+      <p className="mt-2 content-text">
         As a data collection, observation of textual interaction of the online
         ESL community, active participant interviews, and multimedia data (e.g.,
         sharing photos, using personal names, videos, emoji) were gathered.
@@ -43,7 +43,7 @@ const Methodology = () => {
         organize interviews with active participants and record them. These
         recordings were transcribed manually for analysis.
       </p>
-      <p className="mt-2">
+      <p className="mt-2 content-text">
         A qualitative analysis of online conversations and interactions within
         the groups involves analyzing message content, frequency of
         participation, and the presence of personalized communication (e.g.,

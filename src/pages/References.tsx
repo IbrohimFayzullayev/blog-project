@@ -3,12 +3,12 @@ import React from "react";
 const References = () => {
   return (
     <div className="text-black">
-      <h2 className="font-medium text-[1.4rem]">References</h2>
-      <p className="mt-2">
+      <h2 className="content-heading">References</h2>
+      <p className="mt-2 content-text">
         Short, J., Williams, E., & Christie, B. (1976). The Social Psychology of
         Telecommunications. John Wiley & Sons.
       </p>
-      <p className="mt-1">
+      <p className="mt-1 content-text">
         {" "}
         • Rourke, L., Anderson, T., Garrison, D. R., & Archer, W. (2001).
         Methodological issues in the content analysis of computer conference
