@@ -18,17 +18,20 @@ const SideBarNames = [
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="bg-[url('../src/images/bg-img.jpg')] w-full min-h-screen bg-cover">
-      <div className="max-w-[110rem] min-w-[30rem]	my-0 mx-auto">
-        <div className="px-[60px] py-[50px]">
-          <h1 className="text-[60px] text-[#fcf1f1] leading-[70px]">
+    <div
+      className="bg-[url('../src/images/bg-img.jpg')] w-full h-full bg-cover bg-fixed overflow-auto"
+      style={{ width: "100vw", height: "100vh" }}
+    >
+      <div className="max-w-[1440px]	my-0 mx-auto">
+        <div className="px-[20px] py-[20px] 640:p-[30px] 992:p-[40px] 1366:px-[60px] 1366:py-[50px]">
+          <h1 className="text-[2rem] text-[#444] font-medium leading-tight 1366:text-[3.5rem] 1280:text-[3.5rem] 992:text-[2.5rem] 200:text-[1.5rem]">
             The Role of Social Presence in Enhancing Language Learning in Online
             Communities
           </h1>
           <Navbar />
-          <div className="grid mt-[20px] grid-cols-[1fr,4fr] gap-[30px]">
+          <div className="grid mt-[20px] grid-cols-[1fr,4fr,1fr] gap-[10px]">
             <div className="bg-[#666] py-[15px] px-[15px] widget">
-              <h2 className="text-xl font-medium mb-2 text-[#fff] leading-[24px]">
+              <h2 className="text-xl font-medium mb-2 text-[#fff] leading-tight">
                 <Link to={"/"} className="hover:underline">
                   About project
                 </Link>
@@ -47,7 +50,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </div>
             </div>
             <div className="bg-[#fff] p-3 text-black">{children}</div>
-            {/* <div className="bg-[#565656] p-3"></div> */}
+            <div className="bg-[#565656] p-3"></div>
           </div>
         </div>
       </div>

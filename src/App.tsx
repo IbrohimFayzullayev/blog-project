@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Layout from "./components/layout";
 import Introduction from "./pages/Introduction";
 import LiteratureReview from "./pages/LiteratureReview";
@@ -15,7 +14,6 @@ const App: React.FC = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/introduction" element={<Introduction />} />
           <Route path="/literature-review" element={<LiteratureReview />} />
           <Route path="/methodology" element={<Methodology />} />
