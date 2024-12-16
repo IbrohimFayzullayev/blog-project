@@ -15,18 +15,19 @@ const Methodology = () => {
         classes.
       </p>
       <p className="mt-2 content-text">
-        Data was collected from individuals ranging from early learners to
-        advanced speakers, across different age groups and nationalities. For
-        instance, participants like Abdurahmon (18, Uzbekistan), Mohammad (39,
-        Iran), Vedat (Turkey), Peace, Rayyan (India), and Fateme (Iran) provide
-        rich insights into how diverse backgrounds influence perceptions of
-        social presence and engagement in learning environments. A purposeful
-        sampling method was used to find these active members of this online ESL
-        community who frequently interact in the group and are engaged to learn
-        language. Informed consent about the scope of our research, their right
-        to withdraw, and how their data was used, was shared in their private
-        space of the Telegram application. Moreover, their consent was taken to
-        use personal information and photos of profiles for study purposes.{" "}
+        Data was collected from seven community members, ranging from early
+        learners to advanced speakers, across different age groups and
+        nationalities. For instance, participants like Abdurahmon (18,
+        Uzbekistan), Mohammad (39, Iran), Vedat (Turkey), Peace, Rayyan (India),
+        and Fateme (Iran) provide rich insights into how diverse backgrounds
+        influence perceptions of social presence and engagement in learning
+        environments. A purposeful sampling method was used to find these active
+        members of this online ESL community who frequently interact in the
+        group and are engaged to learn language. Informed consent about the
+        scope of our research, their right to withdraw, and how their data was
+        used, was shared in their private space of the Telegram application.
+        Moreover, their consent was taken to use personal information and photos
+        of profiles for study purposes.{" "}
       </p>
       <p className="mt-2 content-text">
         As a data collection, observation of textual interaction of the online

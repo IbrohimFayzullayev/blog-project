@@ -49,7 +49,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <div className="clear"></div>
               </div>
             </div>
-            <div className="bg-[#fff] p-3 text-black">{children}</div>
+            <div className="bg-[#fff] p-3 640:p-5 text-black">{children}</div>
             <div className="bg-[#565656] p-3"></div>
           </div>
         </div>
