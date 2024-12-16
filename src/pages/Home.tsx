@@ -5,13 +5,13 @@ import TgScreenshot from "../images/telegram-screen.jpg";
 const Home: React.FC = () => {
   return (
     <div className="text-[#000]">
-      <div className="w-full flex justify-center">
+      {/* <div className="w-full flex justify-center">
         <img
           src={EnglishWithMasters}
           alt="english with masters"
           className="w-auto h-auto 768:h-[350px]"
         />
-      </div>
+      </div> */}
       <h2 className="content-heading mt-1">Research Topic:</h2>
       <p className="content-text">
         The Role of Social Presence in Enhancing Language Learning in Online
@@ -60,13 +60,22 @@ const Home: React.FC = () => {
       <h4 className="content-heading mt-1">Methodology</h4>
       <p className="content-text">
         Online community "English with Masters" Invite Link:
-        https://t.me/+UWGRwWqXmmpEdkBI <br /> • Participants: interview with 7
-        Members of a Telegram-based English learning community (9,816 members
-        overall). <br /> <b> • Data Collection:</b> <br /> • Observation of
-        Textual interactions, interviews, and multimedia data (photos, voice
-        recordings). <br /> • Semi-structured interviews to explore social
-        presence and learning motivation. <br /> • Analysis: Qualitative
-        analysis of interactions and thematic content coding.
+        <a
+          href="https://t.me/+UWGRwWqXmmpEdkBI"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline text-blue-500"
+        >
+          {" "}
+          https://t.me/+UWGRwWqXmmpEdkBI
+        </a>
+        <br /> • Participants: interview with 7 Members of a Telegram-based
+        English learning community (9,816 members overall). <br />{" "}
+        <b> • Data Collection:</b> <br /> • Observation of Textual interactions,
+        interviews, and multimedia data (photos, voice recordings). <br /> •
+        Semi-structured interviews to explore social presence and learning
+        motivation. <br /> • Analysis: Qualitative analysis of interactions and
+        thematic content coding.
       </p>
       <h4 className="content-heading mt-1">Key Findings</h4>
       <p className="content-text">
@@ -81,6 +90,13 @@ const Home: React.FC = () => {
         4. Sense of Belonging: <br />• Group members express feelings of
         belonging and comfort (e.g., “I feel free to share my views here”).
       </p>
+      <div className="w-full flex justify-center">
+        <img
+          src={EnglishWithMasters}
+          alt="english with masters"
+          className="w-auto h-auto 768:h-[350px]"
+        />
+      </div>
       <h4 className="content-heading mt-1">Data Analysis</h4>
       <p className="content-text">
         • Social Presence in Communication: <br />• Emotional engagement and

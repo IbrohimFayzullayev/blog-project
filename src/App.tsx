@@ -7,6 +7,9 @@ import LiteratureReview from "./pages/LiteratureReview";
 import Methodology from "./pages/Methodology";
 import Conclusion from "./pages/Conclusion";
 import References from "./pages/References";
+import WhoWeAre from "./pages/WhoWeAre";
+import Institution from "./pages/Institution";
+import Date from "./pages/Date";
 
 const App: React.FC = () => {
   return (
@@ -21,6 +24,9 @@ const App: React.FC = () => {
           <Route path="/references" element={<References />} />
           <Route path="/data-analysis" element={<div>Data Analysis</div>} />
           <Route path="/findings" element={<div>Findings</div>} />
+          <Route path="/who-we-are" element={<WhoWeAre />} />
+          <Route path="/institution" element={<Institution />} />
+          <Route path="/date" element={<Date />} />
         </Routes>
       </Layout>
     </Router>

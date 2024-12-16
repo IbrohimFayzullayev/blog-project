@@ -16,6 +16,13 @@ const SideBarNames = [
   { name: "References", link: "/references" },
 ];
 
+const SideBarNames2 = [
+  "Emotional presence and social engagement",
+  "Mutual support in learning ",
+  "Humor and informality",
+  "Sense of belonging",
+];
+
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div
@@ -30,7 +37,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </h1>
           <Navbar />
           <div className="grid mt-[10px] grid-cols-[1fr,4fr,1fr] gap-[10px]">
-            <div className="bg-[#666] py-[8px] px-[8px] widget">
+            <div className="bg-[#666] py-[8px] px-[8px] widget 768:p-[15px]">
               <h2 className="navbar-heading mb-2 text-[#fff]">
                 <Link to={"/"} className="hover:underline">
                   About project
@@ -47,6 +54,19 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   ))}
                 </ul>
                 <div className="clear"></div>
+              </div>
+              <div className="mt-4">
+                <h2 className="navbar-heading mb-2 text-[#fff]">Findings</h2>
+                <div className="widget-content">
+                  <ul className="list-decimal text-[#ccc]">
+                    {SideBarNames2.map((item) => (
+                      <li className="mb-2 navbar-text hover:underline">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="clear"></div>
+                </div>
               </div>
             </div>
             <div className="bg-[#fff] p-3 640:p-5 text-black">{children}</div>
