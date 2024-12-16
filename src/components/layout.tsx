@@ -10,17 +10,25 @@ const SideBarNames = [
   { name: "Introduction", link: "/introduction" },
   { name: "Literature Review", link: "/literature-review" },
   { name: "Methodology", link: "/methodology" },
-  { name: "Data Analysis", link: "/data-analysis" },
-  { name: "Findings", link: "/findings" },
+  // { name: "Data Analysis and Findings", link: "/data-analysis" },
+  // { name: "Findings", link: "/findings" },
+  // { name: "Conclusion", link: "/conclusion" },
+  // { name: "References", link: "/references" },
+];
+
+const SideBars = [
   { name: "Conclusion", link: "/conclusion" },
   { name: "References", link: "/references" },
 ];
 
 const SideBarNames2 = [
-  "Emotional presence and social engagement",
-  "Mutual support in learning ",
-  "Humor and informality",
-  "Sense of belonging",
+  {
+    name: "Emotional presence and social engagement",
+    link: "/findings/emotional-presence",
+  },
+  { name: "Mutual support in learning ", link: "/findings/social-presence" },
+  { name: "Humor and informality", link: "/findings/humor-informality" },
+  { name: "Sense of belonging", link: "/findings/sense-of-belonging" },
 ];
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
@@ -52,21 +60,34 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                       </Link>
                     </li>
                   ))}
+                  <li>
+                    <h2 className="navbar-text font-medium mb-2 text-[#fff]">
+                      <Link to={"/data-analysis"} className="hover:underline">
+                        Data Analysis and Findings
+                      </Link>
+                    </h2>
+                    <div className="widget-content">
+                      <ul className="list-decimal text-[#ccc]">
+                        {SideBarNames2.map((item) => (
+                          <li className="mb-2 navbar-text">
+                            <Link to={item.link} className="hover:underline ">
+                              {item.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                      <div className="clear"></div>
+                    </div>
+                  </li>
+                  {SideBars.map((item) => (
+                    <li className="mb-2 navbar-text">
+                      <Link to={item.link} className="hover:underline ">
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
                 <div className="clear"></div>
-              </div>
-              <div className="mt-4">
-                <h2 className="navbar-heading mb-2 text-[#fff]">Findings</h2>
-                <div className="widget-content">
-                  <ul className="list-decimal text-[#ccc]">
-                    {SideBarNames2.map((item) => (
-                      <li className="mb-2 navbar-text hover:underline">
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="clear"></div>
-                </div>
               </div>
             </div>
             <div className="bg-[#fff] p-3 640:p-5 text-black">{children}</div>
