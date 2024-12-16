@@ -7,7 +7,7 @@ const Institution = () => {
       <div className="bg-[#fff] p-3 640:p-5 text-black">
         <h2 className="content-heading">Institution</h2>
         <p className="content-text">
-          &emsp;Jeonbuk National University , English Department , PhD
+          Jeonbuk National University , English Department , PhD
         </p>
         {/* <img src={InstitutionTable} alt="institution table" /> */}
       </div>
