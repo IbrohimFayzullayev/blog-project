@@ -44,7 +44,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             Communities
           </h1>
           <Navbar />
-          <div className="grid mt-[10px] grid-cols-[1fr,4fr,1fr] gap-[10px]">
+          <div className="grid mt-[10px] grid-cols-[1fr,5fr] gap-[10px]">
             <div className="bg-[#666] py-[8px] px-[8px] widget 768:p-[15px]">
               <h2 className="navbar-heading mb-2 text-[#fff]">
                 <Link to={"/"} className="hover:underline">
@@ -60,13 +60,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                       </Link>
                     </li>
                   ))}
-                  <li>
-                    <h2 className="navbar-text font-medium mb-2 text-[#fff]">
-                      <Link to={"/data-analysis"} className="hover:underline">
-                        Data Analysis and Findings
-                      </Link>
-                    </h2>
-                    <div className="widget-content">
+                  <li className="navbar-text mb-2 text-[#fff]">
+                    <Link
+                      to={"/data-analysis"}
+                      className="font-medium hover:underline"
+                    >
+                      Data Analysis and Findings
+                    </Link>
+
+                    <div className="widget-content mt-1">
                       <ul className="list-decimal text-[#ccc]">
                         {SideBarNames2.map((item) => (
                           <li className="mb-2 navbar-text">
@@ -90,8 +92,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <div className="clear"></div>
               </div>
             </div>
-            <div className="bg-[#fff] p-3 640:p-5 text-black">{children}</div>
-            <div className="bg-[#565656] p-3"></div>
+            <div>{children}</div>
           </div>
         </div>
       </div>
