@@ -1,9 +1,16 @@
 import React from "react";
+import MethodologyVideo from "../images/methodology.mp4";
 
 const Methodology = () => {
   return (
     <div className="grid grid-cols-[4fr,1fr] gap-[10px] min-h-[500px]">
       <div className="bg-[#fff] p-3 640:p-5 text-black">
+        <div className="video-container">
+          <video className="w-full h-auto" controls autoPlay muted loop>
+            <source src={MethodologyVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <h2 className="content-heading">Methodology</h2>
         <p className="mt-2 content-text">
           &emsp;The participants for this study are members of an online

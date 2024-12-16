@@ -1,11 +1,18 @@
 import React from "react";
 import EnglishWithMasters from "../images/english-with-masters.jpg";
 import TgScreenshot from "../images/telegram-screen.jpg";
+// import MethodologyVideo from "../images/methodology.mp4";
 
 const Home: React.FC = () => {
   return (
     <div className="grid grid-cols-[4fr,1fr] gap-[10px] min-h-[500px]">
       <div className="bg-[#fff] p-3 640:p-5 text-black">
+        {/* <div className="video-container">
+          <video className="w-full h-auto" controls autoPlay muted loop>
+            <source src={MethodologyVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div> */}
         <h2 className="content-heading mt-1">Research Topic:</h2>
         <p className="content-text">
           &emsp;The Role of Social Presence in Enhancing Language Learning in
@@ -21,23 +28,23 @@ const Home: React.FC = () => {
         </p>
         <h4 className="content-heading mt-1">Research Introduction</h4>
         <p className="content-text">
-          &emsp; • Background: Online communication platforms have transformed
-          how people interact, especially in language-learning communities.{" "}
-          <br />
-          &emsp; • Theory: Social Presence Theory (SPT) explores how
+          &emsp; <b>• Background:</b> Online communication platforms have
+          transformed how people interact, especially in language-learning
+          communities. <br />
+          &emsp; <b>• Theory:</b> Social Presence Theory (SPT) explores how
           participants feel “present” in virtual spaces, fostering emotional
           connection and engagement. <br />
-          &emsp; • Context: Online language communities (e.g., Telegram) help
-          learners practice communication, providing a space for both
+          &emsp; <b>• Context:</b> Online language communities (e.g., Telegram)
+          help learners practice communication, providing a space for both
           educational and social interaction.
         </p>
         <h4 className="content-heading mt-1">Research Objective</h4>
         <p className="content-text">
-          &emsp;• Aim: To explore how social presence enhances learning
-          experiences in an online English-learning community. <br /> &emsp;•
-          Focus: Analyzing communication patterns (e.g., humor, support,
-          sharing) to understand how they contribute to a sense of belonging and
-          engagement.
+          &emsp;<b>• Aim:</b> To explore how social presence enhances learning
+          experiences in an online English-learning community. <br /> &emsp;
+          <b>• Focus:</b> Analyzing communication patterns (e.g., humor,
+          support, sharing) to understand how they contribute to a sense of
+          belonging and engagement.
         </p>
         <h4 className="content-heading mt-1">Literature Review</h4>
         <p className="content-text">
@@ -69,25 +76,27 @@ const Home: React.FC = () => {
             {" "}
             https://t.me/+UWGRwWqXmmpEdkBI
           </a>
-          <br /> &emsp;• Participants: interview with 7 Members of a
+          <br /> &emsp;<b>• Participants:</b> interview with 7 Members of a
           Telegram-based English learning community (9,816 members overall).{" "}
           <br /> <b> &emsp;• Data Collection:</b> <br /> &emsp;• Observation of
           Textual interactions, interviews, and multimedia data (photos, voice
           recordings). <br /> &emsp;• Semi-structured interviews to explore
-          social presence and learning motivation. <br /> &emsp;• Analysis:
+          social presence and learning motivation. <br /> &emsp;
+          <b>• Analysis:</b>
           Qualitative analysis of interactions and thematic content coding.
         </p>
         <h4 className="content-heading mt-1">Key Findings</h4>
         <p className="content-text">
-          1. Emotional Presence & Social Engagement: <br />
+          <b>1. Emotional Presence & Social Engagement:</b> <br />
           &emsp;• Participants express care and emotional support (e.g., “You’re
-          so caring”). <br /> 2. Mutual Learning Support: <br />
+          so caring”). <br /> <b>2. Mutual Learning Support:</b> <br />
           &emsp;• Peer correction and sharing knowledge enhance social presence
-          and motivation (e.g., “We all learn from each other here”). <br /> 3.
-          Humor & Informality: <br />
+          and motivation (e.g., “We all learn from each other here”). <br />{" "}
+          <b>3. Humor & Informality: </b>
+          <br />
           &emsp;• Humor helps build connection and reduces emotional distance
           (e.g., playful banter like “Why did you leave me alone with Fateme?”).{" "}
-          <br /> 4. Sense of Belonging: <br />
+          <br /> <b>4. Sense of Belonging:</b> <br />
           &emsp;• Group members express feelings of belonging and comfort (e.g.,
           “I feel free to share my views here”).
         </p>
@@ -103,20 +112,20 @@ const Home: React.FC = () => {
           &emsp;• Social Presence in Communication: <br />
           &emsp;• Emotional engagement and frequent interaction enhance social
           presence. <br />
-          &emsp;• Group Cohesion: <br />
+          &emsp;• <b>Group Cohesion:</b> <br />
           &emsp;• Shared jokes, mutual support, and a relaxed communication
           style build a strong sense of community. <br />
-          &emsp;• Humor & Casual Interaction: <br />
+          &emsp;• <b>Humor & Casual Interaction:</b> <br />
           &emsp;• Humor helps to create a comfortable environment for learning
           and engagement. <br />
         </p>
         <h4 className="content-heading mt-1">Conclusion</h4>
         <p className="content-text">
-          &emsp;• Impact of Social Presence: <br />
+          &emsp;• <b>Impact of Social Presence:</b> <br />
           &emsp;Social presence is crucial for creating an emotionally
           supportive and motivating learning environment in online communities.{" "}
           <br />
-          &emsp;• SPT in Action: <br />
+          &emsp;• <b>SPT in Action:</b> <br />
           Participants feel connected emotionally and socially, which enhances
           their learning experience.
         </p>
