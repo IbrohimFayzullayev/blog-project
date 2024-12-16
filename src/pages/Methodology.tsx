@@ -11,7 +11,7 @@ const Methodology = () => {
             Your browser does not support the video tag.
           </video>
         </div>
-        <h2 className="content-heading">Methodology</h2>
+        <h2 className="content-heading mt-2">Methodology</h2>
         <p className="mt-2 content-text">
           &emsp;The participants for this study are members of an online
           language learning community on the Telegram platform who actively
