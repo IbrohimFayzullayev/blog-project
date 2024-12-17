@@ -38,7 +38,22 @@ const Findings3 = () => {
           communicate, especially with personal, supportive, and humorous
           exchanges, the higher the level of social presence they experience, as
           they begin to feel closer to one another. <br />
-          &emsp; The role of informal communication is also discussed in
+          &emsp;Another example of humor is seen in the interaction between
+          Vedat and Fateme, when she had got sore throat and Vedat made a joke
+          suggesting blowing on her face with “cure” breath to recover in
+          affectionate way to engage her when she is feeling unwell, in responce
+          to his humor Fateme also replied in the same way by saying “leads to
+          death”.This is a piece live interaction which helps to feel more
+          connected than a formal exchange.This ongoing humor leads to
+          continuation of another joke about breathing topic again restricting
+          each other having a breath after discussing the fact of the
+          accelerating of humam breathing and climate change.Despite the humor
+          being based on a silly concept, the quick, back-and-forth exchange
+          creates a sense of closeness or presence between the communicators.
+          There’s an implicit understanding that the comments are not serious
+          but instead form part of an ongoing, shared humorous interaction.{" "}
+          <br />
+          &emsp;The role of informal communication is also discussed in
           Walther’s (1992) <i> social information processing theory </i>, which
           emphasizes how people adapt their communication styles to increase
           relational closeness in digital environments. Informal and humorous
