@@ -1,4 +1,7 @@
 import React from "react";
+import TgScreen1 from "../images/humor-screen1.jpg";
+import TgScreen2 from "../images/humor-screen2.jpg";
+import TgScreen3 from "../images/humor-screen3.jpg";
 
 const Findings3 = () => {
   return (
@@ -44,7 +47,11 @@ const Findings3 = () => {
           establish connections beyond transactional or formal interactions.
         </p>
       </div>
-      <div className="bg-[#565656] p-2"></div>
+      <div className="bg-[#565656] p-2">
+        <img src={TgScreen1} alt="screen1" />
+        <img src={TgScreen2} alt="screen2" className="mt-2" />
+        <img src={TgScreen3} alt="screen3" className="mt-2" />
+      </div>
     </div>
   );
 };

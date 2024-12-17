@@ -1,4 +1,5 @@
 import React from "react";
+import TgScreen1 from "../images/screen1.jpg";
 
 const Finding1 = () => {
   return (
@@ -63,7 +64,9 @@ const Finding1 = () => {
           presence.
         </p>
       </div>
-      <div className="bg-[#565656] p-2"></div>
+      <div className="bg-[#565656] p-2">
+        <img src={TgScreen1} alt="Telegram Screen" />
+      </div>
     </div>
   );
 };
