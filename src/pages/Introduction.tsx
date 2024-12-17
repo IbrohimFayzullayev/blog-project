@@ -64,8 +64,7 @@ const Introduction = () => {
         <h4 className="content-heading mt-2">Research Questions: </h4>
         <p className="content-text">
           &emsp;<b>1.</b> How does social presence in online communities (e.g.,
-          language learning groups) influence learners’ engagement and
-          motivation?
+          language learning groups) influence learners’ engagement in learning?
           <br /> &emsp;<b>2.</b> What are the key factors that contribute to
           social presence in online language communities?
         </p>
